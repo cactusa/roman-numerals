@@ -1,0 +1,55 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.generator {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    width: 80%;
+    max-width: 30rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #eee;
+}
+
+.generator__block {
+    margin: 1rem 0;
+}
+
+.generator__heading {
+    font-size: 2rem;
+}
+
+.generator__box {
+    font-family: inherit;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    padding: 0 0.5rem;
+    min-width: 6rem;
+    min-height: 3rem;
+    border-radius: 0.5rem;
+    -webkit-appearance: none;
+}
+
+.generator__box--input {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.generator__box--output {
+    border: 1px dotted #ccc;
+}

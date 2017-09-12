@@ -1,0 +1,6 @@
+# Mac files
+.DS_Store
+
+# Node generated files
+node_modules
+npm-debug.log

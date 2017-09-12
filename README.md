@@ -3,7 +3,7 @@ Coding Kata - Roman Numerals
 
 A Roman Numeral generator coded in JavaScript with tests.
 
-## Project components
+## Project overview
 - A simple app written in JavaScript utilising one main class, `RomanNumeralGenerator`.
 - The app uses RequireJS to load the class as a dependency.
 - JavaScript is linted using JSHint.
@@ -38,8 +38,8 @@ The built project can be found in the `/public` directory. Simply opening `/publ
 
 ---
 
-## Test and build
-The project can be cloned and dependencies installed. This will allow tests to be run, and the project built and opened.
+## Test, build and open
+The project can be cloned and dependencies installed. This will allow tests to be run, and the project built and opened in a browser.
 
 ### Dependencies
 It is assumed that you have the following libraries installed locally:
@@ -54,7 +54,7 @@ Install all node dependencies from the command line in the root folder of this p
 $ npm install
 ```
 
-Run the tests, build and open the app by running the default grunt command:
+Run the tests, build and open the app in a browser by running the default grunt command:
 ```
 $ grunt
 ```
@@ -62,7 +62,7 @@ $ grunt
 ### Running the tests
 Linting is performed using JSHint.
 
-Karma is used to run the tests with PhantomJS. 
+Karma runs the JavaScript unit tests in PhantomJS. 
 
 Both can be run from the command line:
 ```
